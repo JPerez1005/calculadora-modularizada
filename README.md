@@ -34,4 +34,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 the calcular can do many operations like split,multiply,add and subtract, this calculator was made with angular and bootstrap, it is also is conected with components 
 through two binding-events,this calculator also has some alerts with a time of 3 seconds, after this the alert close.
 
+## Notes
+
+i want to remind you that this calculator only works in angular 
+![alt text](image-1.png)
+<br>
+that is all
+
 # thanks for your visit.
