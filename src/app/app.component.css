@@ -1,0 +1,19 @@
+.container_sub_principal{
+    display: flex;
+    flex-direction: row;
+}
+
+app-entradas{
+    width: 80%;
+}
+
+app-salidas{
+    width: 20%;
+}
+
+@media (max-width: 600px){
+    .container_sub_principal{
+        display: flex;
+        flex-direction: column;
+    }
+}

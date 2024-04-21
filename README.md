@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+### Results
+
+![alt text](image.png)
+
+the calcular can do many operations like split,multiply,add and subtract, this calculator was made with angular and bootstrap, it is also is conected with components 
+through two binding-events,this calculator also has some alerts with a time of 3 seconds, after this the alert close.
+
+# thanks for your visit.

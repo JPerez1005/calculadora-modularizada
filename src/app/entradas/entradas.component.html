@@ -1,0 +1,48 @@
+<div class="container">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"
+            >primer numero</span>
+            <input type="number" 
+            class="form-control" 
+            placeholder="escribe aquí" 
+            aria-label="Username" 
+            aria-describedby="basic-addon1"
+            [(ngModel)]="a"
+            >
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"
+            >segundo numero</span>
+            <input type="number" 
+            class="form-control" 
+            placeholder="escribe aquí" 
+            aria-label="Username" 
+            aria-describedby="basic-addon1"
+            [(ngModel)]="b"
+            >
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-light" id="liveAlertBtn" #liveAlertBtn
+            (click)="performOperation()"
+            >
+                Enviar
+            </button>
+            <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" (click)="setOperation('+')">Sumar</a></li>
+                <li><a class="dropdown-item" (click)="setOperation('-')">Restar</a></li>
+                <li><a class="dropdown-item" (click)="setOperation('*')">Multiplicar</a></li>
+                <li><a class="dropdown-item" (click)="setOperation('/')">Dividir</a></li>
+            </ul>
+        </div>
+    
+
+    
+
+    
+    <div id="liveAlertPlaceholder" #liveAlertPlaceholder></div>
+</div>
